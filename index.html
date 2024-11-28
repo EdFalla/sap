@@ -23,7 +23,7 @@
             <li><a href="#nabap">Nuevo ABAP</a></li>
             <li><a href="#saprap">SAP RAP</a></li>
             <li><a href="#sapfiori">SAP Fiori</a></li>
-            <li><a href="#contact">SAP Fiori</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -66,25 +66,16 @@
         <section id="saprap">
             <h2>SAP RAP (Restful Application Programming Model)</h2>
             <article>
-                <h3>Hola Mundo</h3>
+                <h3>RAP es el modelo de programación moderno para el desarrollo de servicios en SAP S/4HANA y SAP BTP, diseñado con un enfoque en aplicaciones RESTful.</h3>
                 <pre>
-DATA: greeting TYPE string VALUE 'Hola, Mundo!'.
-WRITE: / greeting.
+ <li><strong>Características de RAP:.</li>
+ <li>Estandarización: Basado en estándares OData y REST.</li>
+ <li>Desarrollo Full-Stack: Incluye capas de datos, lógica de negocio y API.</li>
+ <li>Optimización en SAP HANA: Aprovecha al máximo el rendimiento de la base de datos.</li>
                 </pre>
             </article>
 
-            <article>
-                <h3>Recorrido de Tabla Interna</h3>
-                <pre>
-DATA: lt_table TYPE TABLE OF string,
-      wa_table TYPE string.
-APPEND 'Elemento 1' TO lt_table.
-APPEND 'Elemento 2' TO lt_table.
-LOOP AT lt_table INTO wa_table.
-  WRITE: / wa_table.
-ENDLOOP.
-                </pre>
-            </article>
+ 
         </section>
 
         <section id="sapfiori">
