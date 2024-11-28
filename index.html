@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Introducción y guía completa sobre programación ABAP">
+    <meta name="author" content="Experto en ABAP">
+    <link rel="stylesheet" href="styles.css">
+    <title>Aprende ABAP</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Guía de Programación ABAP</h1>
+            <p>Explora las herramientas, sintaxis y mejores prácticas del lenguaje ABAP.</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#intro">Introducción</a></li>
+            <li><a href="#tools">Herramientas</a></li>
+            <li><a href="#syntax">Sintaxis</a></li>
+            <li><a href="#examples">Ejemplos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="intro">
+            <h2>¿Qué es ABAP?</h2>
+            <p>ABAP (Advanced Business Application Programming) es un lenguaje de programación desarrollado por SAP, utilizado para personalizar y extender sus soluciones empresariales.</p>
+        </section>
+
+        <section id="tools">
+            <h2>Herramientas de Desarrollo</h2>
+            <ul>
+                <li><strong>ABAP Workbench:</strong> Un conjunto de herramientas integrado en SAP GUI.</li>
+                <li><strong>ADT (ABAP Development Tools):</strong> Desarrollo moderno en Eclipse.</li>
+                <li><strong>SE80:</strong> Herramienta tradicional para gestionar objetos ABAP.</li>
+            </ul>
+        </section>
+
+        <section id="syntax">
+            <h2>Sintaxis del Lenguaje</h2>
+            <pre>
+<b>DATA:</b> my_variable TYPE string.
+<b>WRITE:</b> 'Hola, Mundo!'.
+<b>LOOP AT</b> lt_table INTO wa_table.
+  WRITE: / wa_table-field.
+<b>ENDLOOP.</b>
+            </pre>
+        </section>
+
+        <section id="examples">
+            <h2>Ejemplos de Código</h2>
+            <article>
+                <h3>Hola Mundo</h3>
+                <pre>
+DATA: greeting TYPE string VALUE 'Hola, Mundo!'.
+WRITE: / greeting.
+                </pre>
+            </article>
+
+            <article>
+                <h3>Recorrido de Tabla Interna</h3>
+                <pre>
+DATA: lt_table TYPE TABLE OF string,
+      wa_table TYPE string.
+APPEND 'Elemento 1' TO lt_table.
+APPEND 'Elemento 2' TO lt_table.
+LOOP AT lt_table INTO wa_table.
+  WRITE: / wa_table.
+ENDLOOP.
+                </pre>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>¿Tienes preguntas o comentarios? Envíame un correo a <a href="mailto:expert.abap@ejemplo.com">expert.abap@ejemplo.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aprende ABAP. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
