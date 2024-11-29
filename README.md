@@ -1,5 +1,30 @@
-# ABAP Training Wiki
-¡Bienvenido al repositorio ABAP Training Wiki! Este espacio está diseñado para centralizar y compartir recursos, documentos y guías para la capacitación y el autoaprendizaje de programación en ABAP. Aquí encontrarás información organizada que te ayudará a desarrollar tus habilidades y resolver dudas mientras trabajas con ABAP.
+ABAP Training Repository
+¡Bienvenido al repositorio ABAP Training! Este proyecto está dedicado a recopilar recursos, guías y ejercicios que te ayudarán a aprender y mejorar tus habilidades en programación ABAP. Tanto si eres principiante como si estás buscando profundizar en conceptos avanzados, este repositorio es para ti. 🚀
 
-🎯 Objetivo
-Facilitar el aprendizaje estructurado de ABAP, proporcionando ejemplos prácticos, buenas prácticas y materiales teóricos en un solo lugar.
+🎯 Propósito del Repositorio
+El objetivo de este repositorio es ofrecer un lugar centralizado donde estudiantes y desarrolladores puedan encontrar:
+
+Documentación clara y estructurada sobre ABAP.
+Ejercicios prácticos para aplicar los conocimientos adquiridos.
+Ejemplos de código y casos de uso comunes.
+Buenas prácticas y herramientas para un desarrollo eficiente.
+
+📂 Estructura del Repositorio
+La organización del contenido es la siguiente:
+1. Introducción  
+
+📬 Contacto y Soporte
+Si tienes preguntas, sugerencias o encuentras errores, por favor abre un issue en el repositorio o contáctanos directamente:
+
+Correo electrónico: tu-email@dominio.com
+GitHub Issues: Crear un nuevo issue
+🎉 Agradecimientos
+Gracias por ser parte de esta iniciativa. Tu participación contribuye al crecimiento de esta comunidad y al aprendizaje colectivo. ¡Esperamos que este repositorio te sea útil y te motive a seguir explorando el fascinante mundo de ABAP!
+
+Happy Coding! 👨‍💻👩‍💻
+
+
+
+
+
+
